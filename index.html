@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>Registration</header>
+    
+        <form action="sub">
+            <div class="form">
+                <div class="details">
+                    <span class="title">Personal Details</span>
+    
+                    <div class="fields">
+                        <div class="personal-details">
+                            <label for="first_name">Име:</label>
+                            <input type="text" placeholder="Въведете вашето име" required><br><br>
+                        </div>
+
+                        <div class="personal-details">
+                            <label for="last_name">Фамилия:</label>
+                            <input type="text" placeholder="Въведете вашата фамилия" required><br><br>
+                        </div>
+
+                        <div class="personal-details">
+                            <label for="birth_date">Дата на раждане:</label>
+                            <input type="date" placeholder="Въведете вашата дата" required><br><br>
+                        </div>
+                        <div class="personal-details">
+                            <label for="mobile_number">Мобилен телефон:</label>
+                            <input type="number" placeholder="Въведете вашия мобилен телефон" required><br><br>
+                        </div>
+
+                        <div class="personal-details">
+                            <label for="country">Държава:</label>
+                            <select id="country" name="country">
+                                <option value="con">Изберете държава</option>
+                                <option value="bg">България</option>
+                                <option value="us">САЩ</option>
+                                <option value="uk">Обединеното кралство</option>
+                                <option value="d">Германия</option>
+                                <option value="oth">Друга държава</option>
+                            </select>
+                        </div>
+
+                        <div class="personal-details">
+                            <label for="country">Адрес:</label>
+                            <input type="text" placeholder="Въведете вашия адрес" required><br><br>
+                        </div>
+                        
+                        <div class="personal-details">
+                            <label for="color">Любим цвят:</label>
+                            <select id="color" name="color">
+                                <option value="clr">Изберете любим цвят</option>
+                                <option value="blue">Син</option>
+                                <option value="green">Зелен</option>
+                                <option value="red">Червен</option>
+                                <option value="orange">Оранжев</option>
+                                <option value="purple">Лилав</option>
+                                <option value="brown">Кафяв</option>
+                                <option value="pink">Розов</option>
+                            </select>
+                        </div>
+    
+                        <div class="personal-details">
+                            <label for="gender">Пол:</label>
+                            <select id="gender" name="gender">
+                                <option value="gen">Вашия пол</option>
+                                <option value="male">Мъж</option>
+                                <option value="female">Жена</option>
+                                <option value="other">Друг</option>
+                            </select>
+                        </div>
+
+                        <div class="personal-details">
+                            <label for="nat">Националност:</label>
+                            <input type="text" placeholder="Въведете вашата националност" required><br><br>
+                        </div>
+
+                        <label for="upload" class="custom-file-upload">Прикачване на файл</label>
+                        <input type="file" id="upload" name="upload" accept=".mp3,audio/*" required>
+                        
+                        <button class="nextBtn">
+                            <span class="BtnText">Изпращане</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
